@@ -1,0 +1,6 @@
+framework module Pods_climateUITests {
+  umbrella header "Pods-climateUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

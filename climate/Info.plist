@@ -34,5 +34,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need to obtain location for weather condition</string>
+	<key>NSLocationUsageDescription</key>
+	<string>We need to obtain location for weather condition</string>
+	<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true/>
+			<key>NSExceptionDomains</key>
+			<dict>
+				<key>openweathermap.org</key>
+				<dict>
+					<key>NSExceptionAllowsInsecureHTTPLoads</key>
+					<true/>
+					<key>NSIncludesSubdomains</key>
+					<true/>
+				</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
